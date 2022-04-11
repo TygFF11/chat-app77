@@ -11,11 +11,33 @@
   height:100px;
   background-color:#253141;
   padding:0px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.header-name a{
+  font-size:16px;
+  color:#fafafa;
+}
+.create-room a{
+  color:deepskyblue;
+  border:solid 1px lightblue;
+  padding:14px;
+  text-decoration:none;
 }
 .rooms{
   height:calc(100vh - 100px);
   background-color:#2F3E51;
   padding:0px 20px;
+  overflow:scroll;
+}
+.room{
+  padding-top:20px;
+  padding-bottom:40px;
+}
+.room a{
+  color:white;
+  text-decoration:none;
 }
 
 .chat{
